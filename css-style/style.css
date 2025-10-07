@@ -70,17 +70,41 @@ h1 {
 }
 
 /*images*/
-.image-row {
+.image-row1 {
   display: flex;          /* put images side by side */
   justify-content: space-between;  /* optional spacing */
   align-items: flex-start;         /* align tops */
   margin: 20px;
 }
 
-.image-row img {
+.image-row1 img {
   width: 45%;             /* same width or adjust as needed */
   height: 500px;
   border-radius: 10px;
+}
+
+.image-row2 {
+    display: flex;          /* put images side by side */
+    justify-content: space-between;  /* optional spacing */
+    align-items: flex-start;         /* align tops */
+    margin: 20px;
+}
+.image-row2 img {
+    width: 45%;             /* same width or adjust as needed */
+    height: 500px;
+    border-radius: 10px;
+}
+
+.image-row3 {
+    display: flex;          /* put images side by side */
+    justify-content: space-between;  /* optional spacing */
+    align-items: flex-start;         /* align tops */
+    margin: 20px;
+}
+.image-row3 img {
+    width: 45%;             /* same width or adjust as needed */
+    height: 500px;
+    border-radius: 10px;
 }
 
 #bakery {
@@ -99,7 +123,7 @@ h1 {
 
 /*about section*/
 h3 { 
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 3%;
     text-align:center;
     font-size: 35px;
@@ -130,27 +154,27 @@ h3 {
 body {
     background-color: rgb(227, 230, 206);
 }
-footer {
+main {
     text-align: center;
-    font-size: 15px;
+    font-size: 5px;
     font-family: cursive;
-    margin-top: 50%;
-    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
     margin-left: 4.5%;
     border-radius: 20px;
     padding: 10px;
-    height: 400px;
+    height: 600px;
     background-color: rgb(138, 107, 77);;
     width: 90%;
+}
 
     p { 
-    font-size: 25px;
+    font-size: 20px;
     text-align:center;
-    font-size: 25px;
     font-family: cursive;
     text-shadow: 0 0 6px rgb(236, 102, 0);
     }
-}
+
 
 .phone { 
     font-size: 20px;
@@ -194,4 +218,19 @@ footer {
 .map {
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.menu {
+    text-align: left;
+    font-size: 5px;
+    font-family: cursive;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 24%;
+    border-radius: 20px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(194, 168, 168);
+    width: 55%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
